@@ -5,7 +5,7 @@ function palindrome (str){
     }
     if (temp === str){
         return 'ini palindrome'
-    }
+    }else return 'bukan palindrome'
 }
 
-console.log(palindrome('hannah'))
+console.log(palindrome('tacco cat'))
